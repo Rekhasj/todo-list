@@ -1,0 +1,54 @@
+.main-container {
+  display: flex;
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  color: #000000;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #c79de3;
+  padding-top: 40px;
+  width: 50%;
+}
+.task-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.completed-task-container {
+  width: 50%;
+}
+.my-tasks-list-container {
+  list-style-type: none;
+  width: 60%;
+}
+.completed-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #85c26e;
+  padding-top: 40px;
+}
+.user-input {
+  background-color: transparent;
+  border: 1px solid #ab15cd;
+  height: 20px;
+  width: 200px;
+  color: #ffffff;
+}
+.add-button {
+  background-color: #ab15cd;
+  color: #ffffff;
+  padding: 8px 15px;
+}

@@ -1,0 +1,23 @@
+.todo-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete-button {
+  background-color: #c26e81;
+}
+
+.completed-button {
+  background-color: #6ec2af;
+}
+.button {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.todo-task-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
